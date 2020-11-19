@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var calendarEl = document.getElementById('calendar');
 
-    var cal = new Calendar(calendarEl, {
+    var cal = new FullCalendar.Calendar(calendarEl, {
         plugins: [rrulePlugin, interactionPlugin, dayGridPlugin, listPlugin],
         selectable: true,
         navLinks: true,
