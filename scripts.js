@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var calendarEl = document.getElementById('calendar');
 
     var cal = new FullCalendar.Calendar(calendarEl, {
-        plugins: [rrulePlugin, interactionPlugin, dayGridPlugin, listPlugin],
+        plugins: [interactionPlugin, dayGridPlugin, listPlugin],
         selectable: true,
         navLinks: true,
         // showNonCurrentDates: false,
