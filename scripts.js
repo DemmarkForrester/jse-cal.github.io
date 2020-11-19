@@ -10,7 +10,7 @@ var a = [[{"start":"2020-10-02","title":"DTL J$0.012 Dividend Approved at Board 
 var dividends = a.push([
     {"start":"2020-11-18","title":"GENAC J$0.21592 Dividend Approved at Board Meeting"},
     {"start":"2020-12-01","title":"GENAC J$0.21592 Ex-Dividend Date"},
-    {"start":"2020-12-14","title":"GENAC J$0.21592 Dividend Payment Date"},
+    {"start":"2020-12-14","title":"GENAC J$0.21592 Dividend Payment Date"}
                 ]
             )
 document.addEventListener('DOMContentLoaded', function () {
