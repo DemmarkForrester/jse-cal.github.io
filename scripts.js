@@ -6,9 +6,6 @@
 //import UIkit from 'uikit';
 // import { DateTime } from "luxon";
 
-listing_events.push(
-    )
-
 document.addEventListener('DOMContentLoaded', function () {
 
     var calendarEl = document.getElementById('calendar');
