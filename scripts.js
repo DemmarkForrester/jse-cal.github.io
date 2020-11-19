@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var calendarEl = document.getElementById('calendar');
 
     var cal = new FullCalendar.Calendar(calendarEl, {
-        plugins: [dayGridPlugin, listPlugin],
+        //plugins: [dayGridPlugin, listPlugin],
+        initialView: 'dayGridMonth'
         themeSystem: 'standard',
         selectable: true,
         navLinks: true,
