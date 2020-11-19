@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var cal = new FullCalendar.Calendar(calendarEl, {
         //plugins: [interactionPlugin, dayGridPlugin, listPlugin],
+        themeSystem: 'standard',
         selectable: true,
         navLinks: true,
         // showNonCurrentDates: false,
