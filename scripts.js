@@ -7,7 +7,30 @@
 // import { DateTime } from "luxon";
 
 listing_events.push(
-    [
+    )
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    var calendarEl = document.getElementById('calendar');
+
+    var cal = new Calendar(calendarEl, {
+        plugins: [rrulePlugin, interactionPlugin, dayGridPlugin, listPlugin],
+        selectable: true,
+        navLinks: true,
+        // showNonCurrentDates: false,
+        dayMaxEventRows: true,
+        headerToolbar: { end: 'dayGridMonth today prev,next listMonth' },
+        eventTimeFormat: { // like '14:30pm'
+            hour: 'numeric',
+            minute: '2-digit',
+            meridiem: 'short'
+        },
+        eventSources: [
+            //{
+            //    events: 
+            //},
+            {
+                events: [
         {
             title: 'BIL APO Opening',
             start: '2020-08-26T09:00:00',
@@ -40,30 +63,7 @@ listing_events.push(
             start: '2020-09-22T16:30:00',
             allDay: false // will make the time show
         }
-    ])
-
-document.addEventListener('DOMContentLoaded', function () {
-
-    var calendarEl = document.getElementById('calendar');
-
-    var cal = new Calendar(calendarEl, {
-        plugins: [rrulePlugin, interactionPlugin, dayGridPlugin, listPlugin],
-        selectable: true,
-        navLinks: true,
-        // showNonCurrentDates: false,
-        dayMaxEventRows: true,
-        headerToolbar: { end: 'dayGridMonth today prev,next listMonth' },
-        eventTimeFormat: { // like '14:30pm'
-            hour: 'numeric',
-            minute: '2-digit',
-            meridiem: 'short'
-        },
-        eventSources: [
-            {
-                events: dividend_events.flat()
-            },
-            {
-                events: listing_events.flat(), color: 'yellow', textColor: 'black'
+    ], color: 'yellow', textColor: 'black'
             },
             {
                 events: [
