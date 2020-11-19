@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var cal = new FullCalendar.Calendar(calendarEl, {
         //plugins: [dayGridPlugin, listPlugin],
-        initialView: 'dayGridMonth'
+        initialView: 'dayGridMonth',
         themeSystem: 'standard',
         selectable: true,
         navLinks: true,
