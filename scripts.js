@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         eventSources: [
             {
-                events: dividends.flat() 
+                events: a.flat() 
             },
             {
                 events: [
