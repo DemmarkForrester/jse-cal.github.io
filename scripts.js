@@ -1,9 +1,9 @@
-import { Calendar } from '@fullcalendar/core';
-import rrulePlugin from '@fullcalendar/rrule';
-import interactionPlugin from '@fullcalendar/interaction';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import listPlugin from '@fullcalendar/list';
-import UIkit from 'uikit';
+//import { Calendar } from '@fullcalendar/core';
+//import rrulePlugin from '@fullcalendar/rrule';
+//import interactionPlugin from '@fullcalendar/interaction';
+//import dayGridPlugin from '@fullcalendar/daygrid';
+//import listPlugin from '@fullcalendar/list';
+//import UIkit from 'uikit';
 // import { DateTime } from "luxon";
 
 listing_events.push(
