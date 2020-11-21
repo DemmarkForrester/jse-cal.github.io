@@ -16,15 +16,35 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit-icons.min.js" integrity="sha512-hcz3GoZLfjU/z1OyArGvM1dVgrzpWcU3jnYaC6klc2gdy9HxrFkmoWmcUYbraeS+V/GWSgfv6upr9ff4RVyQPw==" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.js"></script>
   <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/rrule@5.4.0/main.global.min.js'></script>
-
+  
+  <style>
+		.fc-theme-standard .fc-list-day-cushion {
+			background-color: rgba(208, 208, 208, 1);
+			background-color: var(--fc-neutral-bg-color, rgba(100, 100, 100, 1));
+		}
+		:root {
+			--fc-list-event-dot-width: 10px;
+			--fc-list-event-hover-bg-color: #1d1c1c;
+		}
+		.fc-theme-standard .fc-popover-header {
+			background-color: rgba(208, 208, 208, 1);
+			background-color: var(--fc-neutral-bg-color, rgba(100, 100, 100, 1));
+		}
+		.fc-popover-body {
+			background-color: rgba(208, 208, 208, 1);
+			background-color: var(--fc-neutral-bg-color, rgba(50, 50, 50, 1));
+		}
+ </style>
 </head>
 
-<body>
-  <h1> Stock Calendar </h1>
-  <p>
-    Go to date: <input type="date" id="dateInput" class="uk-input uk-form-width-medium uk-form-small">
-  </p>
-  <div id='calendar' class="uk-container-medium uk-align-center"></div>
-  <script src="scripts.js"></script>
+<body class="uk-light uk-background-secondary" uk-height-viewport>
+  <div class="uk-container">
+    <h1> Stock Calendar </h1>
+    <p>
+      Go to date: <input type="date" id="dateInput" class="uk-input uk-form-width-medium uk-form-small">
+    </p>
+    <div id='calendar' class="uk-container-medium uk-align-center"></div>
+    <script src="scripts.js"></script>
+  </div>
 </body>
 </html>
