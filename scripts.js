@@ -14,7 +14,11 @@ var dividends = a.push([
     
     {"start":"2020-11-17","title":"SOS J$0.08 Dividend Approved at Board Meeting"},
     {"start":"2020-12-01","title":"SOS J$0.08 Ex-Dividend Date"},
-    {"start":"2020-12-17","title":"SOS J$0.08 Dividend Payment Date"}
+    {"start":"2020-12-17","title":"SOS J$0.08 Dividend Payment Date"},
+    
+    {"start":"2020-11-19","title":"SALF J$0.50 Dividend Approved at Board Meeting"},
+    {"start":"2020-12-03","title":"SALF J$0.50 Ex-Dividend Date"},
+    {"start":"2020-12-18","title":"SALF J$0.50 Dividend Payment Date"}
                 ]
             )
 document.addEventListener('DOMContentLoaded', function () {
