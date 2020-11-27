@@ -60,6 +60,10 @@ document.addEventListener('DOMContentLoaded', function () {
             start: '2020-09-23',
         },
         {
+            title: 'KEY Rights Issue Record Date',
+            start: '2020-12-10',
+        },
+        {
             title: 'CFF 1-10 Stock Split',
             start: '2020-10-13',
         },
