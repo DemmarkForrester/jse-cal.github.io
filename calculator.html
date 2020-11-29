@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stock Calculator</title>
+    <link rel="stylesheet" href="stock.css">
+    <script src="elm.min.js"></script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center">Stock Calculator</h1>
+    <noscript>
+      <div class="alert-danger">Please enable Javascript to use this application.</div>
+    </noscript>
+
+    <ol>
+      <li>Enter the total amount of money you wish to use to buy the stocks into the first input field.</li>
+      <li>Enter the price you wish to pay for each share into the second input field.</li>
+      <li>Enter the percentage for broker commission into the third input field.</li>
+    </ol>
+    <p><strong>This program only works for total cash up to $21,000,000 and share price values up to
+        $400,000. </strong>
+    </p>
+    <br>
+
+    <div id="elm"></div>
+    <script>
+      var app = Elm.Main.init({
+        node: document.getElementById('elm')
+      });
+    </script>
+  </body>
+
+</html>
