@@ -22,7 +22,11 @@ var dividends = a.push([
     
     {"start":"2020-12-02","title":"KW J$0.34 Dividend Approved at Board Meeting"},
     {"start":"2020-12-16","title":"KW J$0.34 Ex-Dividend Date"},
-    {"start":"2021-01-18","title":"KW J$0.34 Dividend Payment Date"}
+    {"start":"2021-01-18","title":"KW J$0.34 Dividend Payment Date"},
+    
+    {"start":"2020-12-04","title":"JP J$0.20 Dividend Approved at Board Meeting"},
+    {"start":"2020-12-18","title":"JP J$0.20 Ex-Dividend Date"},
+    {"start":"2021-01-15","title":"JP J$0.20 Dividend Payment Date"}
                 ]
             )
 document.addEventListener('DOMContentLoaded', function () {
@@ -163,6 +167,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     {
                         title: '1834 - AGM',
                         start: '2020-12-18T10:30:00',
+                        // end: '2020-11-28T13:00:00',
+                        allDay: false // will make the time show
+                    },
+                    {
+                        title: 'ICREATE - AGM',
+                        start: '2020-12-28T15:00:00',
                         // end: '2020-11-28T13:00:00',
                         allDay: false // will make the time show
                     },
