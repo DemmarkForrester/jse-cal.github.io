@@ -30,7 +30,11 @@ var dividends = a.push([
     
     {"start":"2020-12-07","title":"LUMBER J$0.02 Dividend Approved at Board Meeting"},
     {"start":"2020-12-21","title":"LUMBER J$0.02 Ex-Dividend Date"},
-    {"start":"2021-01-18","title":"LUMBER J$0.02 Dividend Payment Date"}
+    {"start":"2021-01-18","title":"LUMBER J$0.02 Dividend Payment Date"},
+    
+    {"start":"2020-12-09","title":"SGJ J$0.45 Dividend Approved at Board Meeting"},
+    {"start":"2020-12-28","title":"SGJ J$0.45 Ex-Dividend Date"},
+    {"start":"2021-01-20","title":"SGJ J$0.45 Dividend Payment Date"}
                 ]
             )
 document.addEventListener('DOMContentLoaded', function () {
