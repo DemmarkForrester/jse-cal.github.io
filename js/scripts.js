@@ -100,7 +100,17 @@ document.addEventListener('DOMContentLoaded', function () {
             title: 'TROPICAL IPO Closing',
             start: '2020-09-22T16:30:00',
             allDay: false // will make the time show
+        },
+        {
+            title: 'SCI APO Opening',
+            start: '2020-12-18T09:00:00',
+            allDay: false // will make the time show
+        },
+        {
+            title: 'SCI APO Record Date for Existing Shareholders',
+            start: '2020-11-20',
         }
+ 
     ], color: 'yellow', textColor: 'black'
             },
             {
