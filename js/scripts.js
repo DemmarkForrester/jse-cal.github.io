@@ -26,7 +26,15 @@ var dividends = a.push([
     
     {"start":"2020-12-04","title":"JP J$0.20 Dividend Approved at Board Meeting"},
     {"start":"2020-12-18","title":"JP J$0.20 Ex-Dividend Date"},
-    {"start":"2021-01-15","title":"JP J$0.20 Dividend Payment Date"}
+    {"start":"2021-01-15","title":"JP J$0.20 Dividend Payment Date"},
+    
+    {"start":"2020-12-07","title":"LUMBER J$0.02 Dividend Approved at Board Meeting"},
+    {"start":"2020-12-21","title":"LUMBER J$0.02 Ex-Dividend Date"},
+    {"start":"2021-01-18","title":"LUMBER J$0.02 Dividend Payment Date"},
+    
+    {"start":"2020-12-09","title":"SGJ J$0.45 Dividend Approved at Board Meeting"},
+    {"start":"2020-12-28","title":"SGJ J$0.45 Ex-Dividend Date"},
+    {"start":"2021-01-20","title":"SGJ J$0.45 Dividend Payment Date"}
                 ]
             )
 document.addEventListener('DOMContentLoaded', function () {
@@ -92,7 +100,17 @@ document.addEventListener('DOMContentLoaded', function () {
             title: 'TROPICAL IPO Closing',
             start: '2020-09-22T16:30:00',
             allDay: false // will make the time show
+        },
+        {
+            title: 'SCI APO Opening',
+            start: '2020-12-18T09:00:00',
+            allDay: false // will make the time show
+        },
+        {
+            title: 'SCI APO Record Date for Existing Shareholders',
+            start: '2020-11-20',
         }
+ 
     ], color: 'yellow', textColor: 'black'
             },
             {
