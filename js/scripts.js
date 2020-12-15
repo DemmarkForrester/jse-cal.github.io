@@ -113,6 +113,15 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             title: 'SCI APO Record Date for Existing Shareholders',
             start: '2020-11-20',
+        },
+        {
+            title: 'DTL APO Opening',
+            start: '2021-01-06T09:00:00',
+            allDay: false // will make the time show
+        },
+        {
+            title: 'DTL APO Record Date for Existing Shareholders',
+            start: '2021-01-06',
         }
  
     ], color: 'yellow', textColor: 'black'
