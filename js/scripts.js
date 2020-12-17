@@ -38,7 +38,11 @@ var dividends = a.push([
     
     {"start":"2020-12-14","title":"FIRSTROCKUSD US$0.0012 Dividend Approved at Board Meeting"},
     {"start":"2020-12-28","title":"FIRSTROCKUSD US$0.0012 Ex-Dividend Date"},
-    {"start":"2021-01-11","title":"FIRSTROCKUSD US$0.0012 Dividend Payment Date"}
+    {"start":"2021-01-11","title":"FIRSTROCKUSD US$0.0012 Dividend Payment Date"},
+    
+    {"start":"2020-12-15","title":"PTL J$0.04 Dividend Approved at Board Meeting"},
+    {"start":"2020-12-29","title":"PTL J$0.04 Ex-Dividend Date"},
+    {"start":"2021-01-14","title":"PTL J$0.04 Dividend Payment Date"}
                 ]
             )
 document.addEventListener('DOMContentLoaded', function () {
