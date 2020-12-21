@@ -95,14 +95,14 @@ document.addEventListener('DOMContentLoaded', function () {
             title: 'CFF 1-10 Stock Split',
             start: '2020-10-13',
         },
-         {
+        {
              title: 'JAMT 1-3 Stock Split',
              start: '2020-11-30',
          },
-                    {
+        {
              title: 'JAMT 1-3 Ex-Stock Split',
              start: '2020-11-27',
-         },
+        },
         {
             title: 'TROPICAL IPO Opening',
             start: '2020-09-22T09:00:00',
@@ -111,6 +111,11 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             title: 'TROPICAL IPO Closing',
             start: '2020-09-22T16:30:00',
+            allDay: false // will make the time show
+        },
+        {
+            title: 'Alliance Financial Services IPO Opening',
+            start: '2020-12-28T09:00:00',
             allDay: false // will make the time show
         },
         {
