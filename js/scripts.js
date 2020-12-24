@@ -245,6 +245,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         allDay: false // will make the time show
                     },
                     {
+                        title: 'PAL - AGM',
+                        start: '2021-01-28T14:00:00',
+                        // end: '2020-11-28T13:00:00',
+                        allDay: false // will make the time show
+                    },
+                    {
                         title: 'PULS - AGM',
                         start: '2021-02-16T10:30:00',
                         // end: '2020-11-28T13:00:00',
