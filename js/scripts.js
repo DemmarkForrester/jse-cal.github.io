@@ -42,7 +42,15 @@ var dividends = a.push([
     
     {"start":"2020-12-15","title":"PTL J$0.04 Dividend Approved at Board Meeting"},
     {"start":"2020-12-29","title":"PTL J$0.04 Ex-Dividend Date"},
-    {"start":"2021-01-14","title":"PTL J$0.04 Dividend Payment Date"}
+    {"start":"2021-01-14","title":"PTL J$0.04 Dividend Payment Date"},
+    
+    {"start":"2020-12-22","title":"LAB J$0.034 Dividend Approved at Board Meeting"},
+    {"start":"2021-01-07","title":"LAB J$0.034 Ex-Dividend Date"},
+    {"start":"2021-01-22","title":"LAB J$0.034 Dividend Payment Date"},
+    
+    {"start":"2020-12-22","title":"LAB J$0.04 Dividend Approved at Board Meeting"},
+    {"start":"2021-01-07","title":"LAB J$0.04 Ex-Dividend Date"},
+    {"start":"2021-01-22","title":"LAB J$0.04 Dividend Payment Date"}
                 ]
             )
 document.addEventListener('DOMContentLoaded', function () {
