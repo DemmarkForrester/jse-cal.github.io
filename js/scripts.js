@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
             allDay: false // will make the time show
         },
         {
-            title: 'Alliance Financial Services IPO Opening',
+            title: 'Alliance Financial Services IPO Opening - Suspended',
             start: '2020-12-28T09:00:00',
             allDay: false // will make the time show
         },
