@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     },
                     {
                         title: 'SCI APO Closing',
-                        start: '2020-12-30T14:00:00',
+                        start: '2020-12-30T16:00:00',
                         allDay: false // will make the time show
                     },
                     {
