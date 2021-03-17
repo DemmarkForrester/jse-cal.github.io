@@ -556,7 +556,7 @@ option = {
 
             let change = value[1];
             change = change
-                ? `${change.toFixed(2)}%`
+                ? `${(parseFloat(change)).toFixed(2)}%`
                 : '-';
 
             return `<div class="uk-text-center uk-text-bold">${echarts.format.encodeHTML(info.name)}</div>
