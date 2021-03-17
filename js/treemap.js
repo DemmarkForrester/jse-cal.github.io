@@ -526,7 +526,7 @@ option = {
         right: 0,
         type: 'treemap',
         data: temp,
-        roam: 'pan',
+        // roam: 'pan',
         levels: [
             {
                 color: ['#942e38', '#aaa', '#269f3c'],
